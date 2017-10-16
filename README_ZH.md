@@ -1,15 +1,15 @@
-# Easy QoS for OpenWRT/Lede([中文](https://github.com/zhaojh329/eqos/blob/master/README_ZH.md))
+# Easy QoS for OpenWRT/Lede
 
 ![](https://img.shields.io/badge/license-GPLV3-brightgreen.svg?style=plastic "License")
 
-![](https://github.com/zhaojh329/image/blob/master/eqos.png)
+![](https://github.com/zhaojh329/image/blob/master/eqos_zh.png)
 
-# Features
-* Support speed limit based on IP address
-* No marking by iptables
-* Support LuCI interface
+# 特性
+* 支持基于IP地址限速
+* 未使用iptables打MARK
+* 提供Luci界面
 
-# Install to OpenWRT/LEDE
+# 安装到OpenWRT/LEDE
 	
 	git clone https://github.com/zhaojh329/eqos.git
 	cp -r eqos LEDE_DIR/package/eqos
